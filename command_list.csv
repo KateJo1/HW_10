@@ -1,0 +1,49 @@
+    1  git config - -global user.name "KateJo1"
+    2  git config --global user.name "KateJo1"
+    3  git config --global user.email "katebilovus@gmail.com"
+    4  git config --global --list
+    5  git init
+    6  git remote add origin https://github.com/KateJo1/HW_10.git
+    7  git pull origin main
+    8  git clone https://github.com/KateJol/HW_10.git
+    9  cd ~/HW_10
+   10  git status
+   11  ls
+   12  git clone https://github.com/KateJol/HW_10.git
+   13  cd HW_10
+   14  touch text_ignore.txt
+   15  text_ignore.txt
+   16  cd ~
+   17  rm -rf HW_10
+   18  git clone https://github.com/KateJol/HW_10.git
+   19  [200~cd HW_10
+   20  git clone https://github.com/KateJo1/HW_10.git
+   21  touch main_test.txt
+   22  git add .
+   23  cd HW_10
+   24  git status
+   25  touch main_test.txt
+   26  git add .
+   27  git commit -m "Додано порожній файл main_test.txt"
+   28  git push origin main   # або master
+   29  git add .
+   30  git commit -m "Додано порожній файл main_test.txt"
+   31  git push origin main   # або master
+   32  git credential-manager clear
+   33  git push origin main
+   34  git credential-manager erase
+   35  git credential-manager erase https://github.com
+   36  git push origin main
+   37  git checkout -b develop
+   38  touch develop_test.txt
+   39  git add .
+   40  git commit -m "Додано файл develop_test.txt"
+   41  echo "just a small change" >> develop_test.txt
+   42  git status
+   43  git add .
+   44  [200~git commit -m "Додано зміни в develop_test.txt"
+   45  git commit -m "Додано зміни в develop_test.txt"
+   46  git checkout main
+   47  git merge develop
+   48  git log --oneline --graph --all
+   49  history > command_list.csv
